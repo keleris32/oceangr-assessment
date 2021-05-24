@@ -1,0 +1,69 @@
+.hero {
+  width: 100%;
+  height: 400px;
+  background-image: url(../../Media/screenshot_100.png);
+  background-position: 50% 50%;
+}
+
+.hero-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.hero-info-con {
+  margin-left: 4em;
+  width: 600px;
+}
+
+.hero-title {
+  font-size: 4em;
+  margin-bottom: 0.25em;
+}
+
+.hero-search-field {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  position: relative;
+}
+
+input {
+  height: 80px;
+  width: 100%;
+  border-width: 1px;
+  border-color: #000;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.hero-btn {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25em 2.5em 0.75em;
+  position: absolute;
+  right: 20px;
+  background-color: #d55130;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.hero-btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-find {
+  font-size: 2em;
+  margin-bottom: 0.1em;
+}
+
+.btn-naira {
+  background-color: #fff;
+  color: #d55130;
+}
